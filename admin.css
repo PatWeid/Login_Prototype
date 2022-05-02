@@ -1,0 +1,21 @@
+.headline {
+    position: center;
+    margin: 50px;
+    color: white;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin: 120px;
+    height: 150px;
+}
+
+.button {
+    background-color: #c935bb;
+    font-size: 27px;
+    color: white;
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+}

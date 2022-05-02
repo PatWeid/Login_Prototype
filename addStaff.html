@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="addStudent.css">
+</head>
+<body>
+<h1>Add Staff</h1>
+<hr>
+<form class="form">
+    <div class="flex2">
+        <input type="text" id="staffID" placeholder="StaffID">
+        <input type="text" id="firstName" placeholder="First Name">
+        <input type="text" id="lastName" placeholder="Last Name">
+        <input type="text" id="email" placeholder="Email">
+    </div>
+    <div class="flex3">
+        <p>DOB: <input type="text" id="dobAdd"></p>
+    </div>
+
+    <div class="flex4">
+        <input type="radio" name="sex" value="male">Male<br>
+        <input type="radio" name="sex" value="female" checked>Female<br>
+    </div>
+
+    <div class="flex5">
+        <button class="button" type="button" onclick="addStaff()">Add</button>
+        <button class="button" type="button" onclick="cancelAddStaff()">Cancel</button>
+    </div>
+</form>
+
+
+<script src="addStaff.js"></script>
+
+</body>
+</html>

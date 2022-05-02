@@ -1,0 +1,44 @@
+h2 {
+    margin: 50px;
+}
+
+.form {
+    margin: 50px;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.flex3 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.flex4 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.flex5 {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.button {
+    background-color: #333333;
+    color: white;
+    width: 150px;
+    height: 150px;
+}

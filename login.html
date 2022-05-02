@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+<div class="wrapper">
+
+    <div class="form">
+        <h2>Admin Login</h2>
+        <input class="input" type="text" id="adminUsername" placeholder="Username">
+        <input class="input" type="password" id="adminPassword" placeholder="Password">
+        <button class="button" id="adminButton" type="button" onclick="adminLogin()">Login</button>
+    </div>
+
+    <form class="form">
+        <h2>Staff Login</h2>
+        <input class="input" type="text" id="staffUsername" placeholder="Username">
+        <input class="input" type="password" id="staffPassword" placeholder="Password">
+        <button  class="button" id="staffButton" type="button" onclick="staffLogin()">Login</button>
+    </form>
+</div>
+<div id="infoMessage"></div>
+
+
+<script src="login.js"></script>
+</body>
+</html>

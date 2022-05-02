@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="adminStudents.css">
+</head>
+<body>
+<h1>All Students</h1>
+<hr>
+<div class="wrapper">
+
+    <div class="box">
+        <button class="button" type="button" onclick="addStudentForm()">Add Student</button>
+        <button class="button" type="button" onclick="updateStudent()">Update Student</button>
+        <button class="button" type="button" onclick="deleteStudentForm()">Delete Student</button>
+    </div>
+</div>
+
+<table class="table" id="table">
+    <thead>
+    <tr><th>Student ID</th><th>Firstname</th><th>Lastname</th><th>DOB</th><th>E-Mail</th><th>Department</th><th>Semester</th><th>Gender</th></tr>
+    </thead>
+</table>
+<script src="adminStudents.js"></script>
+
+</body>
+</html>

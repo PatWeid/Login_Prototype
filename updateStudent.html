@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="addStudent.css">
+</head>
+<body>
+
+<h1>Update Student</h1>
+<hr>
+<form class="form">
+    <div class="flex1">
+        <div>
+            <label for="departmentSelect">Department Selection</label>
+            <select name="pets" id="departmentSelect">
+                <option value="">Select course</option>
+                <option value="computerScience">Computer Science</option>
+                <option value="mathematics">Mathematics</option>
+                <option value="engineering">Engineering</option>
+            </select>
+        </div>
+        <div>
+            <label for="semesterSelect">Semester Selection</label>
+            <select name="semester" id="semesterSelect">
+                <option value="">Select semester</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+            </select>
+        </div>
+    </div>
+    <div class="flex2">
+        <input type="text" id="studentID" placeholder="StudentID">
+        <input type="text" id="firstName" placeholder="First Name">
+        <input type="text" id="lastName" placeholder="Last Name">
+        <input type="text" id="email" placeholder="Email">
+    </div>
+    <div class="flex3">
+        <p>DOB: <input type="text" id="dobAdd"></p>
+
+    </div>
+
+    <div class="flex4">
+        <input type="radio" name="sex" value="male">Male<br>
+        <input type="radio" name="sex" value="female" checked>Female<br>
+    </div>
+
+    <div class="flex5">
+    <button class="button" type="button" onclick="updateStudent()">Update</button>
+    <button class="button" type="button" onclick="cancelUpdateStudent()">Cancel</button>
+    </div>
+</form>
+
+
+<script src="updateStudent.js"></script>
+</body>
+</html>
