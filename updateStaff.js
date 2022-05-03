@@ -19,7 +19,6 @@ function getUpdatePosition(id) {
 }
 
 function updateStaff() {
-
     let staffID = document.getElementById('staffID');
     let id = staffID.value;
     if (id === "") {

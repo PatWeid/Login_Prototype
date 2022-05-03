@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="adminStudents.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="adminStudents.css">
 </head>
 <body>
 <h1>All Staff</h1>
 <hr>
 <div class="wrapper">
 
-  <div class="box">
-    <button class="button" type="button" onclick="addStaffForm()">Add Staff</button>
-    <button class="button" type="button" onclick="updateStaff()">Update Staff</button>
-    <button class="button" type="button" onclick="deleteStaffForm()">Delete Staff</button>
-  </div>
+    <div class="box">
+        <button class="button" type="button" onclick="addStaffForm()">Add Staff</button>
+        <button class="button" type="button" onclick="updateStaff()">Update Staff</button>
+        <button class="button" type="button" onclick="deleteStaffForm()">Delete Staff</button>
+    </div>
 </div>
 
 <table class="table" id="tableStaff">
-  <thead>
-  <tr><th>Staff ID</th><th>Firstname</th><th>Lastname</th><th>DOB</th><th>E-Mail</th><th>Gender</th></tr>
-  </thead>
+    <thead>
+    <tr>
+        <th>Staff ID</th>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>DOB</th>
+        <th>E-Mail</th>
+        <th>Gender</th>
+    </tr>
+    </thead>
 </table>
 <script src="adminStaff.js"></script>
 

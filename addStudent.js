@@ -1,6 +1,5 @@
-$( "#dobAdd" ).datepicker();
+$("#dobAdd").datepicker();
 $("#sex").attr('checked', 'checked');
-
 
 
 function addStudent() {

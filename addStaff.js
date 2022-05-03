@@ -1,6 +1,5 @@
-$( "#dobAdd" ).datepicker();
+$("#dobAdd").datepicker();
 $("#sex").attr('checked', 'checked');
-
 
 
 function addStaff() {
@@ -32,7 +31,6 @@ function addStaff() {
     for (let i = 0, length = radio.length; i < length; i++) {
         if (radio[i].checked) {
             var gender = radio[i].value;
-            // only one radio can be logically checked, don't check the rest
             break;
         }
     }

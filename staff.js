@@ -2,7 +2,7 @@ table = document.getElementById('table');
 
 for (let i = 0; i < allCourses.length; i++) {
 
-    tr = table.insertRow(); // Create a new row.
+    tr = table.insertRow();
     let tabCell = tr.insertCell();
     tabCell.innerHTML = allCourses[i];
 
@@ -21,7 +21,7 @@ function showStudents(course) {
 
     for (let i = 0; i < studentsFromCourse.length; i++) {
 
-        tr = table.insertRow(); // Create a new row.
+        tr = table.insertRow();
         let tabCell = tr.insertCell();
         tabCell.innerHTML = studentsFromCourse[i].id;
 

@@ -1,4 +1,4 @@
-$( "#dobUpdate" ).datepicker();
+$("#dobUpdate").datepicker();
 
 function idIsKnown(id) {
     for (let i = 0; i < allStudents.length; i++) {
@@ -19,7 +19,6 @@ function getUpdatePosition(id) {
 }
 
 function updateStudent() {
-
     let studentID = document.getElementById('studentID');
     let id = studentID.value;
     if (id === "") {
@@ -59,7 +58,6 @@ function updateStudent() {
     for (let i = 0, length = radio.length; i < length; i++) {
         if (radio[i].checked) {
             gender = radio[i].value;
-            // only one radio can be logically checked, don't check the rest
             break;
         }
     }

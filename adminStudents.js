@@ -1,13 +1,9 @@
 var table = document.getElementById('table');
 var tr;
 
-function displayDate() {
-    console.log('buttonclick');
-}
-
 for (let i = 0; i < allStudents.length; i++) {
 
-    tr = table.insertRow(); // Create a new row.
+    tr = table.insertRow();
     let tabCell = tr.insertCell();
     tabCell.innerHTML = allStudents[i].id;
 
@@ -31,15 +27,6 @@ for (let i = 0; i < allStudents.length; i++) {
 
     tabCell = tr.insertCell();
     tabCell.innerHTML = allStudents[i].gender;
-
-    let btn = document.createElement("button");
-    btn.innerHTML = "Click Me";
-    btn.addEventListener("click", function(){
-        displayDate();
-        btn.addEventListener("click", displayDate);
-    });
-    tr.appendChild(btn);
-
 }
 
 

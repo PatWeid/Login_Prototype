@@ -3,37 +3,37 @@ var allStaff = [];
 var allCourses = ["Computer Science", "Mathematics", "Engineering"];
 
 let student = new Object();
-student.id = '100';
-student.firstName = 'Sepp';
-student.lastName = 'Huber';
-student.dob = 'DOB';
-student.email = 'seppl@gmail.com';
+student.id = '1000';
+student.firstName = 'Katarina';
+student.lastName = 'Weber';
+student.dob = '30/04/1995';
+student.email = 'katarina@weber.com';
 student.department = 'Mathematics';
 student.semester = '7';
-student.gender = 'male';
+student.gender = 'female';
 
 allStudents.push(student);
 
 
 student = new Object();
 student.id = '9000';
-student.firstName = 'Patrick';
-student.lastName = 'Weidmüller';
-student.dob = 'DOB';
-student.email = 'patrick.weidmueller@gmail.com';
+student.firstName = 'Diego';
+student.lastName = 'Fernandez';
+student.dob = '30/04/2002';
+student.email = 'diego@fernandez.com';
 student.department = 'Computer Science';
-student.semester = '7';
+student.semester = '1';
 student.gender = 'male';
 
 allStudents.push(student);
 
 let staff = new Object();
-staff.id = '9000';
-staff.firstName = 'Patrick';
-staff.lastName = 'Weidmüller';
-staff.dob = 'DOB';
-staff.email = 'patrick.weidmueller@gmail.com';
-staff.gender = 'male';
+staff.id = '1984';
+staff.firstName = 'Marie';
+staff.lastName = 'Curie';
+staff.dob = '06/04/1934';
+staff.email = 'marie@curie.com';
+staff.gender = 'female';
 
 allStaff.push(staff);
 
@@ -47,21 +47,20 @@ function adminLogin() {
     let adminPassword = document.getElementById('adminPassword').value;
 
     if (adminUsername === 'Admin' && adminPassword === 'Admin') {
-        invalidLogin();
-    } else {
         loadAdminpage();
+    } else {
+        invalidLogin();
     }
 }
 
 function staffLogin() {
-    let infoMessage = document.getElementById('infoMessage');
     let staffUsername = document.getElementById('staffUsername').value;
     let staffPassword = document.getElementById('staffPassword').value;
 
     if (staffUsername === 'Staff' && staffPassword === 'Staff') {
-        invalidLogin();
-    } else {
         loadStaffpage();
+    } else {
+        invalidLogin();
     }
 }
 
